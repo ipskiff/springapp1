@@ -7,9 +7,14 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
+<<<<<<< HEAD
     <bean id="testBean"
           class="ru.satizhanov.myspringapp.TestBean">
         <constructor-arg value="Ildar"/>
+=======
+    <bean id="musicBean"
+          class="ru.satizhanov.myspringapp.ClassicalMusic">
+>>>>>>> 0408e22 (IoC and Manual DI)
     </bean>
 
 </beans>
