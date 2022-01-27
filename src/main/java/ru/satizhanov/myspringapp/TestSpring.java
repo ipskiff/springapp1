@@ -8,17 +8,16 @@ public class TestSpring {
                 "applicationContext.xml"
         );
 
-<<<<<<< HEAD
+
         TestBean testBean = context.getBean("testBean", TestBean.class);
 
         System.out.println(testBean.getName());
-=======
+
         Music music = context.getBean("musicBean", Music.class);
 
         MusicPlayer musicPlayer = new MusicPlayer(music);
 
         musicPlayer.playMusic();
->>>>>>> 0408e22 (IoC and Manual DI)
 
         context.close();
     }
