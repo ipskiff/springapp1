@@ -12,4 +12,9 @@
           class="ru.satizhanov.myspringapp.ClassicalMusic">
     </bean>
 
+    <bean id="musicPlayer"
+          class="ru.satizhanov.myspringapp.MusicPlayer">
+        <constructor-arg ref="musicBean"/>
+    </bean>
+
 </beans>
