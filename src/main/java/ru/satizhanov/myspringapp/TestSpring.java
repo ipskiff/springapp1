@@ -39,7 +39,7 @@ public class TestSpring {
 //        musicPlayer.playMusic();
 
         Computer computer = context.getBean("computer", Computer.class);
-        System.out.println(computer);
+        computer.playMusicFromMusicPlayer();
 
         context.close();
     }
