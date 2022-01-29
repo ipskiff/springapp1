@@ -11,4 +11,6 @@
 
     <context:component-scan base-package="ru.satizhanov.myspringapp"/>
 
+    <context:property-placeholder location="classpath:musicPlayer.properties"/>
+
 </beans>
